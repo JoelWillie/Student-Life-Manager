@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Class Schedule</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+     <center> <h1>Weekly Class Schedule</h1></center>
+	  <hr>
+      
+    </header>
+
+    <main>
+      <!-- ADD CLASS FORM (ONLY CHANGE) -->
+      <div class="add-class-form">
+        <select id="daySelect">
+          <option value="0">Monday</option>
+          <option value="1">Tuesday</option>
+          <option value="2">Wednesday</option>
+          <option value="3">Thursday</option>
+          <option value="4">Friday</option>
+        </select>
+<br>
+<br>
+<br>
+        <input type="text" id="timeInput" placeholder="e.g. 8:00 AM" />
+		<br>
+		<br>
+		<br>
+		
+        <input type="text" id="classInput" placeholder="Class name..." />
+		<br>
+		<br>
+		<br>
+		
+        <button id="addClassBtn">Add Class</button>
+		<br>
+		<br>
+		<br>
+      </div>
+<hr>
+<br>
+<br>
+      <!-- HTML TABLE (UNCHANGED) -->
+      <table class="schedule-table" id="timetable">
+        <thead>
+          <tr>
+            <th>Time  ‎  ‎ ‎   ‎ ‎‎  </th> 
+            <th>Monday ‎ ‎ ‎   ‎ ‎  </th>
+            <th>Tuesday ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎</th>
+            <th>Wednesday‎ ‎ ‎ ‎ ‎ ‎ ‎</th>
+            <th>Thursday‎ ‎ ‎ ‎ ‎ ‎ ‎ </th>
+            <th>Friday‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </th>
+          </tr>
+        </thead>
+        <tbody id="timetableBody">
+          <!-- Classes will be added here -->
+        </tbody>
+      </table>
+    </main>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    
+	  <a href="index.html" class="back-btn">Home</a>
+    </footer>
+  </div>
+
+  <script src="js/.js"></script>
+</body>
+</html>
